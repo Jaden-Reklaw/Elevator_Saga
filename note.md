@@ -11,6 +11,7 @@
     off(), on() one(), stop(), trigger()
 */
 
+Step #1 Find buttons pushed on floor and add to array
 - is the elevator empty(yes/no) if yes go to closest persons
 - how do you find the closest elevator to that person
 - are there more people on the elevator going down or up
