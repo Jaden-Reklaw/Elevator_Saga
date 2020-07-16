@@ -17,13 +17,12 @@
                         } 
                     });
                     
-                    //Makes the elevator go to the button that was pressed on the elevator
                     elevator.on("floor_button_pressed", function(floorNum) {
+                        console.log('going to floor', floorNum);
                         elevator.goToFloor(floorNum);
                     });
                 });
-            });
-             
+            });               
         });
     },
     update: function(dt, elevators, floors) {
